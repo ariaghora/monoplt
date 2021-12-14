@@ -8,7 +8,7 @@ with open("README.md") as readme_file:
 setup(
     name="monoplt",
     py_modules=["monoplt"],
-    version="0.1.0",
+    version="0.1.1",
     description="Monochromatic colorscheme for matplotlib with opinionated sensible default",
     author="Aria Ghora Prabono",
     author_email="hello@ghora.net",
