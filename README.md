@@ -8,6 +8,11 @@ To install, simply run this on terminal:
 pip install monoplt
 ```
 
+or if you want the latest development version, run this instead:
+```bash
+pip install git+https://github.com/ariaghora/monoplt
+```
+
 ## Usage
 
 ```python
