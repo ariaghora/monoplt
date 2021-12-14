@@ -30,7 +30,7 @@ def apply_monochrome_style(plt, font_size: int = 16, use_tex: bool = True):
 
 def generate_pattern_cycler():
     res = (
-        cycler("hatch", ["///", "--", "...", "\\\//", "xx", "\\\\"])
+        cycler("hatch", ["", "///", "OO", "--", "**", "...", "\\\//", "xx", "\\\\"])
         * cycler("color", "w")
         * cycler("edgecolor", "k")
     )
