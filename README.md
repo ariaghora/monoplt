@@ -65,4 +65,19 @@ plt.show()
 
 ![line](assets/hist.png)
 
+### Example: pie
+
+```python
+plt.figure(figsize=(7, 5))
+pie = plt.pie(
+    [2, 3, 1, 5, 7, 9], 
+    labels=["two", "three", "one", "five", "seven", "nine"],
+)
+
+styles = generate_pattern_cycler()
+for part in pie[0]:
+    part.set(**next(styles))
+```
+
+![line](assets/pie.png)
 Heavily adopted from [Olsgaard's post](http://olsgaard.dk/monochrome-black-white-plots-in-matplotlib.html)
