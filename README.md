@@ -80,4 +80,5 @@ for part in pie[0]:
 ```
 
 ![line](assets/pie.png)
+
 Heavily adopted from [Olsgaard's post](http://olsgaard.dk/monochrome-black-white-plots-in-matplotlib.html)
